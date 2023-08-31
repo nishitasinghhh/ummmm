@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.2s linear;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(5, 5, 42);
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+ .logo{
+    float: left;
+    margin-left: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+    background: linear-gradient(84.64deg, rgb(55, 55, 206),rgb(199, 17, 120), rgb(77, 6, 77)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    border: 1px solid white;
+    background: linear-gradient(84.64deg, rgb(55, 55, 206),rgb(199, 17, 120), rgb(77, 6, 77)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+}
+.home .light{
+    color: rgb(171, 169, 169);
+    font-size: 35px;
+    
+}
+.whitetext .myname{
+    font-size: 100px;
+    color: white;
+    
+}
+.home{
+    float: left;
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button1 button{
+    
+    text-align: center;
+    border:none;
+    color:white;
+    background-clip: text;
+    background-image: linear-gradient(84.64deg, rgb(55, 55, 206),rgb(199, 17, 120), rgb(77, 6, 77)) ;
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+    position: absolute;
+   
+}
+
+.button11 a{
+    color: white;
+    border: none;
+}
+.button11 a:hover {
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.button1 button:hover{
+    color:white;
+    background-clip: text;
+    background-image: linear-gradient(84.64deg,rgb(77, 6, 77) ,rgb(199, 17, 120), rgb(55, 55, 206)) ;
+}
+.about{
+    margin-top: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+ .about .border-image{
+    border: 8px solid plum;
+    width: 400.5px;
+    height: 500px;
+    margin-left: 80px;
+    position: relative;
+    border-radius: 10px;
+ }
+ .image{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 20px;
+ }
+ .content{
+    color: aliceblue;
+    line-height: 1.5;
+    width: 500px;
+    
+ }
+ .content h2{
+    font-size: 30px;
+    background: linear-gradient(84.64deg, rgb(55, 55, 206),rgb(199, 17, 120), rgb(77, 6, 77)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .skills{
+    margin-top:150px ;
+ }
+.skills h2{
+    font-size: 50px;
+    background: linear-gradient(84.64deg, rgb(55, 55, 206),rgb(199, 17, 120), rgb(77, 6, 77)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.skill-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.name11{
+    font-size: 25px;
+    color: plum;
+}
+.webtools{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.webtools{
+    margin-top: 100px;
+}
+.projects{
+    margin-top: 200px;
+}
+.projects h2{
+    font-size: 60px;
+    text-align: center;
+    background: linear-gradient(84.64deg, rgb(55, 55, 206),rgb(199, 17, 120), rgb(77, 6, 77)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
+.card-project{
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.prev-btn ,.next-btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    /* margin-top: 200px;
+    margin-left: 100px; */
+}
+.prev-btn:hover,.next-btn:hover{
+    color:white;
+    background-clip: text;
+    background-image: linear-gradient(84.64deg,rgb(77, 6, 77) ,rgb(199, 17, 120), rgb(55, 55, 206)) ;
+}
+.Github1,.linkToWebsite{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    color:white;
+    background-clip: text;
+    background-image: linear-gradient(84.64deg,rgb(77, 6, 77) ,rgb(199, 17, 120), rgb(55, 55, 206)) ;
+    border: none;
+}
+.Github1:hover,.linkToWebsite:hover{
+    background-clip: text;
+    background-image: linear-gradient(84.64deg,rgb(55, 55, 206) ,rgb(199, 17, 120), rgb(77, 6, 77)) ;
+    border: none;
+}
+.Github1 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.linkToWebsite a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.Github1 a:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+.linkToWebsite a:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+.projects .content h1{
+    color: plum;
+    font-size: 50px;
+}
+.projects .content #projectDescription{
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 1.5;
+    width: 800px;
+}
+.projects .content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.link-button{
+    display: flex;
+    gap: 50px;
+}
+.contact{
+    margin-top: 150px;
+    
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+
+}
+.contact h2{
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(84.64deg, rgb(55, 55, 206),rgb(199, 17, 120), rgb(77, 6, 77)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact a{
+    color: white;
+    font-size: 20px;
+    
+}
+.contact h3{
+    color: plum;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+/* nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+} */
+@media (max-width: 1048px) {
+    .logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul{
+        margin-left: 20px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+    .home .light{
+        color: rgb(171, 169, 169);
+        font-size: 20px;
+        align-items: center;
+    }
+    .whitetext .myname{
+        font-size: 80px;
+        color: white;
+        align-items: center;
+    }
+    .home{
+        
+        margin-left: 15px;
+        margin-top: 50px;
+        width: 600px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about{
+        margin-top: 1200px;
+        display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    }
+    
+}
+
+@media (max-width: 909px){
+     /* nav #icon{
+        display: block;
+     } */
+     nav ul{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: 0;
+        text-align: center;
+        transition: all .5s;
+     }
+     nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+     }
+     nav a{
+        font-size: 20px;
+
+     }
+     a.active,a:hover{
+        border: none;
+     }
+     .home .light{
+        color: rgb(171, 169, 169);
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .whitetext .myname{
+        font-size: 60px;
+        color: white;
+        
+    }
+    .home{
+        
+        margin-left: 15px;
+        margin-top: 10px;
+        width: 600px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about{
+        margin-top: 1200px;
+        display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    }
+    .about .border-image{
+        margin-left: 0;
+    
+    }
+    .content{
+       margin-top: 10px;
+    }
+    .skills h2{
+        margin: 100px;
+    }
+    .projects .content h1{
+        color: plum;
+        font-size: 30px;
+    }
+    .projects .content #projectDescription{
+        color: aliceblue;
+        font-size: 9px;
+        line-height: 1;
+        width: 600px;
+    }
+    .Github1,.linkToWebsite{
+        width: 90px;
+        height: 40px;
+    }
+    .prev-btn ,.next-btn{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: none;
+        /* margin-top: 200px;
+        margin-left: 100px; */
+    }
+    
+}
+
+            
